@@ -31,23 +31,23 @@ helpMessage ="""
 ╔═════════════
 ║ TEAM BOT ADHI
 ╠═════════════
-║╠☔Key1
-║╠☔Key2
-║╠☔Key3
-║╠☔Say (txt)
-║╠☔Kr say (text)
-║╠☔Apakah (text)
-║╠☔Kapan (txt)
-║╠☔welcome
-║╠☔.. (text)
-║╠☔Time
-║╠☔rate @
-║╠☔Gcreator
-║╠☔Creator
-║╠☔Spam on (jml) (Text)
-║╠☔image
-║╠☔ig
-║╠☔youtube
+ |Key1
+║|Key2
+║|Key3
+║|Say (txt)
+║|Kr say (text)
+ |Apakah (text)
+║|Kapan (txt)
+║|welcome
+║|.. (text)
+║|Time
+║|rate @
+║|Gcreator
+║|Creator
+║|Spam on (jml) (Text)
+║|image
+║|ig
+║|youtube
 ║|lirik
 ║|music
 ║|zodiAK
