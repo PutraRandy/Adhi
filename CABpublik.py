@@ -20,7 +20,7 @@ cl.loginResult()#
 kc = kl = cl
 satpam = kk = ki = cl
 
-print "╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ KRIS BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
+print "════n/SUKSES BOSS\n════"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -29,12 +29,8 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ╔═════════════
-║    ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ TEAM BOT ADHI
 ╠═════════════
-║      Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
-║╔════════════
 ║╠☔Key1
 ║╠☔Key2
 ║╠☔Key3
@@ -52,26 +48,26 @@ helpMessage ="""
 ║╠☔image
 ║╠☔ig
 ║╠☔youtube
-║╠☔lirik
-║╠☔music
-║╠☔zodiAK
-║╠☔Mimic
-║╠☔Getcover @
-║╠☔Tag on/off
-║╠☔Getpp @
-║╠☔Getinfo @
-║╠☔Getinfo2
-║╠☔Njoin on/off
-║╠☔Nleave on/off
-║╠☔setview
-║╠☔viewseen
-║╠☔CCtv
-║╠☔Intip
-║╠☔Crot (tagall)
-║╠☔Absen
-║╠☔Gift
-║╠☔ranita pergi (ngeluarkan bot)
-║╠☔Kr pergi (ngeluarkan bot)
+║|lirik
+║|music
+║|zodiAK
+║|Mimic
+║|Getcover @
+║|Tag on/off
+║|Getpp @
+║|Getinfo @
+║|Getinfo2
+║|Njoin on/off
+║|Nleave on/off
+║|setview
+║|viewseen
+║|CCtv
+║|Intip
+║|Crot (tagall)
+║|Absen
+║|Gift
+║|ranita pergi (ngeluarkan bot)
+║|Kr pergi (ngeluarkan bot)
 ║╚════════════
 ║   UNTUK PUBLIK
 ║ SILAHKAN GUNAKAN
