@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import KRIS
-from KRIS.lib.curve.ttypes import *
+import Adhi
+from Adhi.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -17,46 +17,46 @@ except ImportError:
     from urllib3.response import HTTPResponse
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
-kr = KRIS.LINE()
-#kr.login(qr=True)
-kr.login(token='')#r1
-kr.loginResult()
+Dh = Adhi.LINE()
+#Dh.login(qr=True)
+Dh.login(token='')#r1
+Dh.loginResult()
 
-kr1 = KRIS.LINE()
-#kr1.login(qr=True)
-kr1.login(token='')#r2
-kr1.loginResult()
+Dh1 = Adhi.LINE()
+#Dh1.login(qr=True)
+Dh1.login(token='')#r2
+Dh1.loginResult()
 
-kr2 = KRIS.LINE()
-#kr2.login(qr=True)
-kr2.login(token='')#r3
-kr2.loginResult()
+Dh2 = Adhi.LINE()
+#Dh2.login(qr=True)
+Dh2.login(token='')#r3
+Dh2.loginResult()
 
-kr3 = KRIS.LINE()
-#kr3.login(qr=True)
-kr3.login(token='')#r4
-kr3.loginResult()
+Dh3 = Adhi.LINE()
+#Dh3.login(qr=True)
+Dh3.login(token='')#r4
+Dh3.loginResult()
 
-kr4 = KRIS.LINE()
-#kr4.login(qr=True)
-kr4.login(token='')#r5
-kr4.loginResult()
+Dh4 = Adhi.LINE()
+#Dh4.login(qr=True)
+Dh4.login(token='')#r5
+Dh4.loginResult()
 
-kr5 = KRIS.LINE()
-#kr5.login(qr=True)
-kr5.login(token='')#r6
-kr5.loginResult()
+Dh5 = Adhi.LINE()
+#Dh5.login(qr=True)
+Dh5.login(token='')#r6
+Dh5.loginResult()
 
-print "╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ KRIS BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
+print "══Sukses Bosque═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : Adhi
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣google (text)
@@ -92,10 +92,10 @@ helpmsg ="""
 
 keymsg ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : ADHI
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣keypro
@@ -115,10 +115,10 @@ keymsg ="""
 
 helppro ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : ADHI
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣mode on/off
@@ -131,10 +131,10 @@ helppro ="""
 
 helpself ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : ADHI
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣Me
@@ -164,10 +164,10 @@ helpself ="""
 
 helpset ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : ADHI
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣contact on/off
@@ -188,10 +188,10 @@ helpset ="""
 
 helpgrup ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : ADHI
+║
 ╠═════════════
 ║╔════════════
 ║╠❂➣Link on
@@ -218,10 +218,10 @@ helpgrup ="""
 
 helptranslate ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : ADHI
+║
 ╠═════════════
 ║╔════════════
 ║╠❂➣Id@en
@@ -240,13 +240,13 @@ helptranslate ="""
 ║╚════════════
 ╚═════════════"""
 
-KAC=[kr,kr1,kr2,kr3,kr4,kr5]
-mid = kr.getProfile().mid
-mid1 = kr1.getProfile().mid
-mid2 = kr2.getProfile().mid
-mid3 = kr3.getProfile().mid
-mid4 = kr4.getProfile().mid
-mid5 = kr5.getProfile().mid
+KAC=[Dh,Dh1,Dh2,Dh3,Dh4,Dh5]
+mid = Dh.getProfile().mid
+mid1 = Dh1.getProfile().mid
+mid2 = Dh2.getProfile().mid
+mid3 = Dh3.getProfile().mid
+mid4 = Dh4.getProfile().mid
+mid5 = Dh5.getProfile().mid
 
 Bots=[mid,mid1,mid2,mid3,mid4,mid5]
 induk=[mid]
@@ -270,7 +270,7 @@ wait = {
     'autoAdd':True,
     'message':"""Thx for add""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea «««",
+    "comment":"👉TBA",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -315,16 +315,16 @@ setTime = {}
 setTime = wait2['setTime']
 mulai = time.time()
 
-contact = kr.getProfile()
-backup = kr.getProfile()
-contact = kr1.getProfile()
-backup = kr1.getProfile()
-contact = kr2.getProfile()
-backup = kr2.getProfile()
-contact = kr3.getProfile()
-backup = kr3.getProfile()
-contact = kr4.getProfile()
-backup = kr4.getProfile()
+contact = Dh.getProfile()
+backup = Dh.getProfile()
+contact = Dh1.getProfile()
+backup = Dh1.getProfile()
+contact = Dh2.getProfile()
+backup = Dh2.getProfile()
+contact = Dh3.getProfile()
+backup = Dh3.getProfile()
+contact = Dh4.getProfile()
+backup = Dh4.getProfile()
 backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage                        
 backup.pictureStatus = contact.pictureStatus
@@ -733,107 +733,107 @@ def bot(op):
             return
         if op.type == 5:
             if wait['autoAdd'] == True:
-                kr.findAndAddContactsByMid(op.param1)
+                Dh.findAndAddContactsByMid(op.param1)
                 if (wait['message'] in [""," ","\n",None]):
                     pass
                 else:
-                    kr.sendText(op.param1,str(wait['message']))
+                    Dh.sendText(op.param1,str(wait['message']))
         if op.type == 26:
             msg = op.message
             if msg.from_ in mimic["target"] and mimic["status"] == True and mimic["target"][msg.from_] == True:
                     text = msg.text
                     if text is not None:
-                        kr.sendText(msg.to,text)
+                        Dh.sendText(msg.to,text)
         if op.type == 13:
             print op.param3
             if op.param3 in mid:
-                if op.param2 in owner:
-                    kr.acceptGroupInvitation(op.param1)
+                if op.param2 in admin:
+                    Dh.acceptGroupInvitation(op.param1)
             if op.param3 in mid1:
-                if op.param2 in owner:
-                    kr1.acceptGroupInvitation(op.param1)
+                if op.param2 in admin:
+                    Dh1.acceptGroupInvitation(op.param1)
             if op.param3 in mid2:
-                if op.param2 in owner:
-                    kr2.acceptGroupInvitation(op.param1)
+                if op.param2 in admin:
+                    Dh2.acceptGroupInvitation(op.param1)
             if op.param3 in mid3:
-                if op.param2 in owner:
-                    kr3.acceptGroupInvitation(op.param1)
+                if op.param2 in admin:
+                    Dh3.acceptGroupInvitation(op.param1)
             if op.param3 in mid4:
-                if op.param2 in owner:
-                    kr4.acceptGroupInvitation(op.param1)
+                if op.param2 in admin:
+                    Dh4.acceptGroupInvitation(op.param1)
             if op.param3 in mid:
                 if op.param2 in mid1:
-                    kr.acceptGroupInvitation(op.param1)
+                    Dh.acceptGroupInvitation(op.param1)
             if op.param3 in mid:
                 if op.param2 in mid2:
-                    kr.acceptGroupInvitation(op.param1)
+                    Dh.acceptGroupInvitation(op.param1)
             if op.param3 in mid:
                 if op.param2 in mid3:
-                    kr.acceptGroupInvitation(op.param1)
+                    Dh.acceptGroupInvitation(op.param1)
             if op.param3 in mid:
                 if op.param2 in mid4:
-                    kr.acceptGroupInvitation(op.param1)
+                    Dh.acceptGroupInvitation(op.param1)
             if op.param3 in mid1:
                 if op.param2 in mid:
-                    kr1.acceptGroupInvitation(op.param1)
+                    Dh1.acceptGroupInvitation(op.param1)
             if op.param3 in mid1:
                 if op.param2 in mid2:
-                    kr1.acceptGroupInvitation(op.param1)
+                    Dh1.acceptGroupInvitation(op.param1)
             if op.param3 in mid1:
                 if op.param2 in mid3:
-                    kr1.acceptGroupInvitation(op.param1)
+                    Dh1.acceptGroupInvitation(op.param1)
             if op.param3 in mid1:
                 if op.param2 in mid4:
-                    kr1.acceptGroupInvitation(op.param1)
+                    Dh1.acceptGroupInvitation(op.param1)
             if op.param3 in mid2:
                 if op.param2 in mid:
-                    kr2.acceptGroupInvitation(op.param1)
+                    Dh2.acceptGroupInvitation(op.param1)
             if op.param3 in mid2:
                 if op.param2 in mid1:
-                    kr2.acceptGroupInvitation(op.param1)
+                    Dh2.acceptGroupInvitation(op.param1)
             if op.param3 in mid2:
                 if op.param2 in mid3:
-                    kr2.acceptGroupInvitation(op.param1)
+                    Dh2.acceptGroupInvitation(op.param1)
             if op.param3 in mid2:
                 if op.param2 in mid4:
-                    kr2.acceptGroupInvitation(op.param1)
+                    Dh2.acceptGroupInvitation(op.param1)
             if op.param3 in mid3:
                 if op.param2 in mid:
-                    kr3.acceptGroupInvitation(op.param1)
+                    Dh3.acceptGroupInvitation(op.param1)
             if op.param3 in mid3:
                 if op.param2 in mid1:
-                    kr3.acceptGroupInvitation(op.param1)
+                    Dh3.acceptGroupInvitation(op.param1)
             if op.param3 in mid3:
                 if op.param2 in mid2:
-                    kr3.acceptGroupInvitation(op.param1)
+                    Dh3.acceptGroupInvitation(op.param1)
             if op.param3 in mid3:
                 if op.param2 in mid4:
-                    kr3.acceptGroupInvitation(op.param1)
+                    Dhi3.acceptGroupInvitation(op.param1)
             if op.param3 in mid4:
                 if op.param2 in mid:
-                    kr4.acceptGroupInvitation(op.param1)
+                    Dh4.acceptGroupInvitation(op.param1)
             if op.param3 in mid4:
                 if op.param2 in mid1:
-                    kr4.acceptGroupInvitation(op.param1)
+                    Dh4.acceptGroupInvitation(op.param1)
             if op.param3 in mid4:
                 if op.param2 in mid2:
-                    kr4.acceptGroupInvitation(op.param1)
+                    Dh4.acceptGroupInvitation(op.param1)
             if op.param3 in mid4:
                 if op.param2 in mid3:
-                    kr4.acceptGroupInvitation(op.param1)
+                    Dh4.acceptGroupInvitation(op.param1)
         if op.type == 13:
             if mid in op.param3:
               if wait['autoJoin'] == True:
                 if op.param2 in owner or Bots:
-                  kr.acceptGroupInvitation(op.param1)
+                  Dh.acceptGroupInvitation(op.param1)
                 else:
-                  kr.rejectGroupInvitation(op.param1)
+                  Dh.rejectGroupInvitation(op.param1)
               else:
                 print "autoJoin is Off"
             if mid1 in op.param3:
               if wait['autoJoin'] == True:
                 if op.param2 in owner or Bots:
-                  kr1.acceptGroupInvitation(op.param1)
+                  Dh1.acceptGroupInvitation(op.param1)
                 else:
                   kr1.rejectGroupInvitation(op.param1)
               else:
@@ -841,7 +841,7 @@ def bot(op):
             if mid2 in op.param3:
               if wait['autoJoin'] == True:
                 if op.param2 in owner or Bots:
-                  kr1.acceptGroupInvitation(op.param1)
+                  Dh1.acceptGroupInvitation(op.param1)
                 else:
                   kr1.rejectGroupInvitation(op.param1)
               else:
@@ -849,31 +849,31 @@ def bot(op):
             if mid3 in op.param3:
               if wait['autoJoin'] == True:
                 if op.param2 in owner or Bots:
-                  kr3.acceptGroupInvitation(op.param1)
+                  Dh3.acceptGroupInvitation(op.param1)
                 else:
-                  kr3.rejectGroupInvitation(op.param1)
+                  Dh3.rejectGroupInvitation(op.param1)
               else:
                 print "autoJoin is Off"
             if mid4 in op.param3:
               if wait['autoJoin'] == True:
                 if op.param2 in owner or Bots:
-                  kr4.acceptGroupInvitation(op.param1)
+                  Dh4.acceptGroupInvitation(op.param1)
                 else:
-                  kr4.rejectGroupInvitation(op.param1)
+                  Dh4.rejectGroupInvitation(op.param1)
               else:
                 print "autoJoin is Off"
 
         if op.type == 19:
             if op.param3 in admin:
-                kr.kickoutFromGroup(op.param1,[op.param2])
-                kr.inviteIntoGroup(op.param1,[op.param3])
+                Dh.kickoutFromGroup(op.param1,[op.param2])
+                Dh.inviteIntoGroup(op.param1,[op.param3])
             else:
                 pass
         if op.type == 19:
             if op.param3 in Bots:
-                 kr.kickoutFromGroup(op.param1,[op.param2])
-                 kr.inviteIntoGroup(op.param1,Bots)
-                 kr.inviteIntoGroup(op.param1,[op.param3])
+                 Dh.kickoutFromGroup(op.param1,[op.param2])
+                 Dh.inviteIntoGroup(op.param1,Bots)
+                 Dh.inviteIntoGroup(op.param1,[op.param3])
 
         if op.type == 19:
             if wait["AutoKick"] == True:
