@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import KRIS
-from KRIS.lib.curve.ttypes import *
+import Adhi
+from Adhi.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -12,7 +12,7 @@ from threading import Thread
 #from gtts import gTTS
 from googletrans import Translator
 
-cl = KRIS.LINE()
+cl = Adhi.LINE()
 #cl.login(qr=True)
 cl.login(token='isi anu')#ranita
 cl.loginResult()#
